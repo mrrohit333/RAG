@@ -1,0 +1,97 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+!.vscode/settings.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyd
+*.pdb
+env/
+.venv/
+venv/
+pip-wheel-metadata/
+*.egg-info/
+build/
+dist/
+
+# Python virtualenv & tooling
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# FastAPI / backend data & caches (ignore per-user uploads, FAISS and vector caches)
+backend/data/
+data/
+**/faiss.index
+**/chunks.pkl
+**/chunks.*.pkl
+
+# Node / Next.js
+node_modules/
+npm-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+build/
+dist/
+.next.cache/
+
+# Next / environment files
+.env
+.env.local
+.env.*.local
+.env.production
+.env.production.local
+.env.development.local
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# OS-specific
+*.swp
+*~
+._*
+
+# Python package caches
+__pypackages__/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Mac
+.Spotlight-V100
+.Trashes
+
+# Coverage
+.coverage
+htmlcov/
+.coverage.*
+
+# Misc
+*.sqlite3
+*.db
+/tmp
+/local
+.Dockerfile.swp
+
+# Optional: ignore frontend exported assets or vector stores if present
+/frontend/.cache/
+/frontend/.turbo/
+/frontend/.parcel-cache/
+vector_store/
